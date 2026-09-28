@@ -4,6 +4,14 @@
 [![CI](https://github.com/wormforce/sustech-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/wormforce/sustech-cli/actions/workflows/ci.yml)
 [![Node.js](https://img.shields.io/node/v/sustech-cli)](https://www.npmjs.com/package/sustech-cli)
 
+> [!NOTE]
+> **This branch hosts the SUSTech Library Catalog — one of the components of sustech-cli.**
+> The library-catalog component compiles **188,512 bibliographic records** from the
+> SUSTech Library public catalog into an offline vector database — dual index, semantic
+> topic graph, and shelf-level book labels — plus a fully reproducible toolchain.
+> Start at [`data/library-catalog/README.md`](data/library-catalog/README.md); it is
+> designed to complement this CLI's `sustech library` catalog commands.
+
 An unofficial TypeScript CLI for SUSTech services, designed for people,
 scripts, and coding agents. Text is the default for humans; versioned JSON and
 JSONL are available for software. Python is not required at runtime.
