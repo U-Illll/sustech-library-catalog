@@ -1,5 +1,10 @@
 # SUSTech Library Catalog — offline vector database
 
+> **This project is one of the components of [sustech-cli](https://github.com/wormforce/sustech-cli).**
+> It ships as a standalone data component — developed alongside the CLI, designed
+> to complement its `sustech library` catalog commands, and independently usable
+> by any offline consumer.
+
 Offline dataset for SUSTech Library catalog search: **188,512 bibliographic records**
 from the public Primo VE catalog (export 2026-09-18), compiled into an embeddable
 vector database with semantic links, topic clusters and shelf-level locations.
